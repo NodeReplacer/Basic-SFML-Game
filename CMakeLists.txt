@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.23)
+project(GravMaybe)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(GravMaybe main.cpp Player.cpp Player.h Game.cpp Game.h Enemy.cpp Enemy.h)
+
+# Statically load the library. (Copy the files over directly instead of dynamically linking them)
+# This means we don't load them at run time every time.
+set(SFML_STATIC_LIBRARIES TRUE)
+# Requires SFML to be found at the location specified.
+set(SFML_DIR C:/SFML-32/lib/cmake/SFML)
+find_package(SFML COMPONENTS system window graphics audio network REQUIRED)
+
+include_directories(C:/SFML-32/include)
+target_link_libraries(GravMaybe sfml-system sfml-window sfml-graphics sfml-audio)
