@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: GravMaybe
+# Project: Basic-Game
 # Configurations: Debug
 # =============================================================================
 
@@ -41,64 +41,64 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Personal$ Projects/GravMaybe/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target GravMaybe
+# Object build statements for EXECUTABLE target Basic-Game
 
 
 #############################################
-# Order-only phony target for GravMaybe
+# Order-only phony target for Basic-Game
 
-build cmake_object_order_depends_target_GravMaybe: phony || CMakeFiles/GravMaybe.dir
+build cmake_object_order_depends_target_Basic-Game: phony || CMakeFiles/Basic-Game.dir
 
-build CMakeFiles/GravMaybe.dir/main.cpp.obj: CXX_COMPILER__GravMaybe_Debug C$:/Personal$ Projects/GravMaybe/main.cpp || cmake_object_order_depends_target_GravMaybe
+build CMakeFiles/Basic-Game.dir/main.cpp.obj: CXX_COMPILER__Basic-Game_Debug C$:/Personal$ Projects/GravMaybe/main.cpp || cmake_object_order_depends_target_Basic-Game
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\GravMaybe.dir\main.cpp.obj.d
+  DEP_FILE = CMakeFiles\Basic-Game.dir\main.cpp.obj.d
   FLAGS = -g
   INCLUDES = -isystem C:/SFML-32/include
-  OBJECT_DIR = CMakeFiles\GravMaybe.dir
-  OBJECT_FILE_DIR = CMakeFiles\GravMaybe.dir
+  OBJECT_DIR = CMakeFiles\Basic-Game.dir
+  OBJECT_FILE_DIR = CMakeFiles\Basic-Game.dir
 
-build CMakeFiles/GravMaybe.dir/Player.cpp.obj: CXX_COMPILER__GravMaybe_Debug C$:/Personal$ Projects/GravMaybe/Player.cpp || cmake_object_order_depends_target_GravMaybe
+build CMakeFiles/Basic-Game.dir/Player.cpp.obj: CXX_COMPILER__Basic-Game_Debug C$:/Personal$ Projects/GravMaybe/Player.cpp || cmake_object_order_depends_target_Basic-Game
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\GravMaybe.dir\Player.cpp.obj.d
+  DEP_FILE = CMakeFiles\Basic-Game.dir\Player.cpp.obj.d
   FLAGS = -g
   INCLUDES = -isystem C:/SFML-32/include
-  OBJECT_DIR = CMakeFiles\GravMaybe.dir
-  OBJECT_FILE_DIR = CMakeFiles\GravMaybe.dir
+  OBJECT_DIR = CMakeFiles\Basic-Game.dir
+  OBJECT_FILE_DIR = CMakeFiles\Basic-Game.dir
 
-build CMakeFiles/GravMaybe.dir/Game.cpp.obj: CXX_COMPILER__GravMaybe_Debug C$:/Personal$ Projects/GravMaybe/Game.cpp || cmake_object_order_depends_target_GravMaybe
+build CMakeFiles/Basic-Game.dir/Game.cpp.obj: CXX_COMPILER__Basic-Game_Debug C$:/Personal$ Projects/GravMaybe/Game.cpp || cmake_object_order_depends_target_Basic-Game
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\GravMaybe.dir\Game.cpp.obj.d
+  DEP_FILE = CMakeFiles\Basic-Game.dir\Game.cpp.obj.d
   FLAGS = -g
   INCLUDES = -isystem C:/SFML-32/include
-  OBJECT_DIR = CMakeFiles\GravMaybe.dir
-  OBJECT_FILE_DIR = CMakeFiles\GravMaybe.dir
+  OBJECT_DIR = CMakeFiles\Basic-Game.dir
+  OBJECT_FILE_DIR = CMakeFiles\Basic-Game.dir
 
-build CMakeFiles/GravMaybe.dir/Enemy.cpp.obj: CXX_COMPILER__GravMaybe_Debug C$:/Personal$ Projects/GravMaybe/Enemy.cpp || cmake_object_order_depends_target_GravMaybe
+build CMakeFiles/Basic-Game.dir/Enemy.cpp.obj: CXX_COMPILER__Basic-Game_Debug C$:/Personal$ Projects/GravMaybe/Enemy.cpp || cmake_object_order_depends_target_Basic-Game
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\GravMaybe.dir\Enemy.cpp.obj.d
+  DEP_FILE = CMakeFiles\Basic-Game.dir\Enemy.cpp.obj.d
   FLAGS = -g
   INCLUDES = -isystem C:/SFML-32/include
-  OBJECT_DIR = CMakeFiles\GravMaybe.dir
-  OBJECT_FILE_DIR = CMakeFiles\GravMaybe.dir
+  OBJECT_DIR = CMakeFiles\Basic-Game.dir
+  OBJECT_FILE_DIR = CMakeFiles\Basic-Game.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target GravMaybe
+# Link build statements for EXECUTABLE target Basic-Game
 
 
 #############################################
-# Link the executable GravMaybe.exe
+# Link the executable Basic-Game.exe
 
-build GravMaybe.exe: CXX_EXECUTABLE_LINKER__GravMaybe_Debug CMakeFiles/GravMaybe.dir/main.cpp.obj CMakeFiles/GravMaybe.dir/Player.cpp.obj CMakeFiles/GravMaybe.dir/Game.cpp.obj CMakeFiles/GravMaybe.dir/Enemy.cpp.obj | C$:/SFML-32/lib/libsfml-system-s-d.a C$:/SFML-32/lib/libsfml-window-s-d.a C$:/SFML-32/lib/libsfml-graphics-s-d.a C$:/SFML-32/lib/libsfml-audio-s-d.a C$:/SFML-32/lib/libsfml-window-s-d.a C$:/SFML-32/lib/libfreetype.a C$:/SFML-32/lib/libsfml-system-s-d.a C$:/SFML-32/lib/libopenal32.a C$:/SFML-32/lib/libvorbisfile.a C$:/SFML-32/lib/libvorbisenc.a C$:/SFML-32/lib/libvorbis.a C$:/SFML-32/lib/libogg.a C$:/SFML-32/lib/libFLAC.a
+build Basic-Game.exe: CXX_EXECUTABLE_LINKER__Basic-Game_Debug CMakeFiles/Basic-Game.dir/main.cpp.obj CMakeFiles/Basic-Game.dir/Player.cpp.obj CMakeFiles/Basic-Game.dir/Game.cpp.obj CMakeFiles/Basic-Game.dir/Enemy.cpp.obj | C$:/SFML-32/lib/libsfml-system-s-d.a C$:/SFML-32/lib/libsfml-window-s-d.a C$:/SFML-32/lib/libsfml-graphics-s-d.a C$:/SFML-32/lib/libsfml-audio-s-d.a C$:/SFML-32/lib/libsfml-window-s-d.a C$:/SFML-32/lib/libfreetype.a C$:/SFML-32/lib/libsfml-system-s-d.a C$:/SFML-32/lib/libopenal32.a C$:/SFML-32/lib/libvorbisfile.a C$:/SFML-32/lib/libvorbisenc.a C$:/SFML-32/lib/libvorbis.a C$:/SFML-32/lib/libogg.a C$:/SFML-32/lib/libFLAC.a
   FLAGS = -g
   LINK_FLAGS = -static
   LINK_LIBRARIES = C:/SFML-32/lib/libsfml-system-s-d.a  C:/SFML-32/lib/libsfml-window-s-d.a  C:/SFML-32/lib/libsfml-graphics-s-d.a  C:/SFML-32/lib/libsfml-audio-s-d.a  C:/SFML-32/lib/libsfml-window-s-d.a  -lgdi32  -lOpenGL32  C:/SFML-32/lib/libfreetype.a  C:/SFML-32/lib/libsfml-system-s-d.a  -lwinmm  C:/SFML-32/lib/libopenal32.a  C:/SFML-32/lib/libvorbisfile.a  C:/SFML-32/lib/libvorbisenc.a  C:/SFML-32/lib/libvorbis.a  C:/SFML-32/lib/libogg.a  C:/SFML-32/lib/libFLAC.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\GravMaybe.dir
+  OBJECT_DIR = CMakeFiles\Basic-Game.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = GravMaybe.exe
-  TARGET_IMPLIB = libGravMaybe.dll.a
-  TARGET_PDB = GravMaybe.exe.dbg
+  TARGET_FILE = Basic-Game.exe
+  TARGET_IMPLIB = libBasic-Game.dll.a
+  TARGET_PDB = Basic-Game.exe.dbg
 
 
 #############################################
@@ -126,7 +126,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build GravMaybe: phony GravMaybe.exe
+build Basic-Game: phony Basic-Game.exe
 
 # =============================================================================
 # Folder targets.
@@ -136,7 +136,7 @@ build GravMaybe: phony GravMaybe.exe
 #############################################
 # Folder: C:/Personal Projects/GravMaybe/cmake-build-debug
 
-build all: phony GravMaybe.exe
+build all: phony Basic-Game.exe
 
 # =============================================================================
 # Built-in targets

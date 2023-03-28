@@ -1,13 +1,11 @@
 # ninja log v5
-5	594	7016681303309008	CMakeFiles/GravMaybe.dir/main.cpp.obj	d3cc1ff103891dec
-804	1506	7016681312369038	GravMaybe.exe	e4dce8314b7e1d62
-6	612	7016681303498571	CMakeFiles/GravMaybe.dir/Player.cpp.obj	666a370911d4084f
-3	804	7016681305403464	CMakeFiles/GravMaybe.dir/Game.cpp.obj	c701211432ce5ece
-4	639	7016681303767835	CMakeFiles/GravMaybe.dir/Enemy.cpp.obj	90b549ace6a0f6c
-2	134	7016682279916712	build.ninja	b44b9fcd7e72b6fe
-1	131	7016682279916712	build.ninja	b44b9fcd7e72b6fe
-7	603	7016682286130631	CMakeFiles/GravMaybe.dir/Player.cpp.obj	dbb93b17497f436a
 6	635	7016682286459762	CMakeFiles/GravMaybe.dir/main.cpp.obj	bb4e96e2ca4a508c
-5	686	7016682286960843	CMakeFiles/GravMaybe.dir/Enemy.cpp.obj	d2c9dfc00a25a27d
+7	603	7016682286130631	CMakeFiles/GravMaybe.dir/Player.cpp.obj	dbb93b17497f436a
 4	833	7016682288437226	CMakeFiles/GravMaybe.dir/Game.cpp.obj	5b1997eefea3f921
-834	1553	7016682295575222	GravMaybe.exe	a7ee1fc13ace3ec9
+5	686	7016682286960843	CMakeFiles/GravMaybe.dir/Enemy.cpp.obj	d2c9dfc00a25a27d
+1	131	7016684092028765	build.ninja	b44b9fcd7e72b6fe
+5	1063	7016684149162286	CMakeFiles/Basic-Game.dir/Player.cpp.obj	dc74e5d86f33c5a3
+1	1068	7016684149208058	CMakeFiles/Basic-Game.dir/main.cpp.obj	b4417e248d9e5114
+9	1155	7016684150097067	CMakeFiles/Basic-Game.dir/Enemy.cpp.obj	225c5285034435f7
+7	1320	7016684151758168	CMakeFiles/Basic-Game.dir/Game.cpp.obj	1be801adb4d6380c
+1321	2140	7016684159902404	Basic-Game.exe	f0cfc1f7d21be29a
