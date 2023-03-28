@@ -10,8 +10,8 @@ add_executable(Basic-Game main.cpp Player.cpp Player.h Game.cpp Game.h Enemy.cpp
 # This means we don't load them at run time every time.
 set(SFML_STATIC_LIBRARIES TRUE)
 # Requires SFML to be found at the location specified.
-set(SFML_DIR C:/SFML-32/lib/cmake/SFML)
+set(SFML_DIR ${CMAKE_CURRENT_SOURCE_DIR}/SFML/lib/cmake/SFML)
 find_package(SFML COMPONENTS system window graphics audio network REQUIRED)
 
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/SFML/include)
 target_link_libraries(Basic-Game sfml-system sfml-window sfml-graphics sfml-audio)
