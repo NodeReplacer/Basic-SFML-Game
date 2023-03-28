@@ -41,7 +41,7 @@ void Game::InitializeText() {
 void Game::initializeWindow() {
     this->windowDimensions.height = 1080;
     this->windowDimensions.width = 1920;
-    this->window = new sf::RenderWindow(this->windowDimensions, "GravNav");
+    this->window = new sf::RenderWindow(this->windowDimensions, "Basic");
     this->window->setFramerateLimit(60);
 }
 //End of Private Functions

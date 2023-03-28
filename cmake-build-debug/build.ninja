@@ -91,6 +91,7 @@ build CMakeFiles/GravMaybe.dir/Enemy.cpp.obj: CXX_COMPILER__GravMaybe_Debug C$:/
 
 build GravMaybe.exe: CXX_EXECUTABLE_LINKER__GravMaybe_Debug CMakeFiles/GravMaybe.dir/main.cpp.obj CMakeFiles/GravMaybe.dir/Player.cpp.obj CMakeFiles/GravMaybe.dir/Game.cpp.obj CMakeFiles/GravMaybe.dir/Enemy.cpp.obj | C$:/SFML-32/lib/libsfml-system-s-d.a C$:/SFML-32/lib/libsfml-window-s-d.a C$:/SFML-32/lib/libsfml-graphics-s-d.a C$:/SFML-32/lib/libsfml-audio-s-d.a C$:/SFML-32/lib/libsfml-window-s-d.a C$:/SFML-32/lib/libfreetype.a C$:/SFML-32/lib/libsfml-system-s-d.a C$:/SFML-32/lib/libopenal32.a C$:/SFML-32/lib/libvorbisfile.a C$:/SFML-32/lib/libvorbisenc.a C$:/SFML-32/lib/libvorbis.a C$:/SFML-32/lib/libogg.a C$:/SFML-32/lib/libFLAC.a
   FLAGS = -g
+  LINK_FLAGS = -static
   LINK_LIBRARIES = C:/SFML-32/lib/libsfml-system-s-d.a  C:/SFML-32/lib/libsfml-window-s-d.a  C:/SFML-32/lib/libsfml-graphics-s-d.a  C:/SFML-32/lib/libsfml-audio-s-d.a  C:/SFML-32/lib/libsfml-window-s-d.a  -lgdi32  -lOpenGL32  C:/SFML-32/lib/libfreetype.a  C:/SFML-32/lib/libsfml-system-s-d.a  -lwinmm  C:/SFML-32/lib/libopenal32.a  C:/SFML-32/lib/libvorbisfile.a  C:/SFML-32/lib/libvorbisenc.a  C:/SFML-32/lib/libvorbis.a  C:/SFML-32/lib/libogg.a  C:/SFML-32/lib/libFLAC.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\GravMaybe.dir
   POST_BUILD = cd .

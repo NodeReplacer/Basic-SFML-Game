@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.23)
 project(GravMaybe)
 
 set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_EXE_LINKER_FLAGS "-static")
 
 add_executable(GravMaybe main.cpp Player.cpp Player.h Game.cpp Game.h Enemy.cpp Enemy.h)
 
