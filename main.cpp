@@ -16,6 +16,5 @@ int main()
         //Render
         game.render();
     }
-
-
+    return(0);
 }
