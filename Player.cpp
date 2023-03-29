@@ -141,7 +141,7 @@ void Player::update(sf::RenderTarget* target) {
 void Player::playerRender(sf::RenderTarget* target) {
     //We need to pass in a RenderTarget to tell this function where we are
     //rendering our Player to. A pointer will be better because we don't need
-    //the window in front of us we just need directions.
+    //a copy of the existing window we just need directions to an already existing one..
     target->draw(this->playerShape);
 }
 

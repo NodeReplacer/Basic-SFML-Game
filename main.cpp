@@ -1,9 +1,5 @@
 #include "Game.h"
 
-const float GRAVITY = 9.8f;
-
-void applyGravity (sf::RectangleShape player);
-
 int main()
 {
     Player player;
