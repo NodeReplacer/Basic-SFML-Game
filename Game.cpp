@@ -13,9 +13,10 @@ void Game::initializeVariables() {
     this->points = 0;
     this->hurtNum = 0;
     this->hurtLimit = static_cast<int>(maxEnemies*0.25);
-
+    this->gameEnded = false;
+    
     //Initialize Font
-    if (!this->font.loadFromFile("C:/Personal Projects/GravMaybe/Font/VCR_OSD_MONO_1.001.ttf")) {
+    if (!this->font.loadFromFile("Font/VCR_OSD_MONO_1.001.ttf")) {
         std::cout << "! ERROR::GAME::INITFONT::COULD NOT LOAD VCR_OSD_MONO_1.001.ttf" << "\n";
     }
 }
@@ -102,7 +103,7 @@ const int Game::MakeRandomBall() {
 
     if (randomNum > 50 && randomNum <= 80) {
         if (this->hurtNum == this->hurtLimit) {
-            std::cout << this->hurtNum;
+            //std::cout << this->hurtNum;
             enemType = EnemyTypes::DEFAULT;
             this->hurtNum = this->hurtLimit;
         }
@@ -157,7 +158,7 @@ void Game::updateCollision() {
                 case EnemyTypes::HURTING:
                     this->player.takeDamage(1);
                     this->hurtNum--;
-                    std::cout << this->hurtNum << "\n";
+                    //std::cout << this->hurtNum << "\n";
                     break;
                 case EnemyTypes::HEALING:
                     this->player.gainHealth(1);

@@ -1,17 +1,5 @@
-"C:\Program Files\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.2/bin/ninja/win/ninja.exe" -G Ninja -S "C:\Personal Projects\GravMaybe" -B "C:\Personal Projects\GravMaybe\cmake-build-debug"
--- The C compiler identification is GNU 7.3.0
--- The CXX compiler identification is GNU 7.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: C:/mingw32/bin/gcc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: C:/mingw32/bin/c++.exe - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Found SFML 2.5.1 in C:/Personal Projects/GravMaybe/SFML/lib/cmake/SFML
+"G:\Program Files\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=G:/Program Files/JetBrains/CLion 2022.2/bin/ninja/win/ninja.exe" -G Ninja -S "G:\Personal Projects\C++ Projects\GravMaybe" -B "G:\Personal Projects\C++ Projects\GravMaybe\cmake-build-debug"
+-- Found SFML 2.5.1 in G:/Personal Projects/C++ Projects/GravMaybe/SFML/lib/cmake/SFML
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Personal Projects/GravMaybe/cmake-build-debug
+-- Build files have been written to: G:/Personal Projects/C++ Projects/GravMaybe/cmake-build-debug

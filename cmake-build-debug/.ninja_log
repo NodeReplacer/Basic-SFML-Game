@@ -1,10 +1,19 @@
 # ninja log v5
-5	600	7016715524821894	CMakeFiles/Basic-Game.dir/main.cpp.obj	e6d6ef23f4ac8b91
-3	662	7016715525441489	CMakeFiles/Basic-Game.dir/Enemy.cpp.obj	e18a274dd0e663f3
-6	670	7016715525531270	CMakeFiles/Basic-Game.dir/Player.cpp.obj	fd13795da59421c9
-1	857	7016715527399481	CMakeFiles/Basic-Game.dir/Game.cpp.obj	73eb64046a061f13
-858	1506	7016715533851497	Basic-Game.exe	44adea5703a0dc3
-8	616	7017570009103195	CMakeFiles/Basic-Game.dir/Player.cpp.obj	fd13795da59421c9
 10	623	7017570009173540	CMakeFiles/Basic-Game.dir/main.cpp.obj	e6d6ef23f4ac8b91
+8	616	7017570009103195	CMakeFiles/Basic-Game.dir/Player.cpp.obj	fd13795da59421c9
 4	793	7017570010859064	CMakeFiles/Basic-Game.dir/Game.cpp.obj	73eb64046a061f13
+3	662	7016715525441489	CMakeFiles/Basic-Game.dir/Enemy.cpp.obj	e18a274dd0e663f3
 794	1532	7017570018213232	Basic-Game.exe	44adea5703a0dc3
+9	1263	7029530820000000	CMakeFiles/Basic-Game.dir/Player.cpp.obj	2dabe42e9e899921
+4	1269	7029530820000000	CMakeFiles/Basic-Game.dir/main.cpp.obj	db4fd1dc868673e6
+12	1303	7029530820000000	CMakeFiles/Basic-Game.dir/Enemy.cpp.obj	ae041a4b5b652667
+17	1443	7029530820000000	CMakeFiles/Basic-Game.dir/Game.cpp.obj	56e908d5d8e1d6ce
+1444	2986	7029530820000000	Basic-Game.exe	74db91774decddb9
+8	1092	7029531000000000	CMakeFiles/Basic-Game.dir/Game.cpp.obj	56e908d5d8e1d6ce
+1092	2297	7029531020000000	Basic-Game.exe	74db91774decddb9
+8	1668	7029536400000000	CMakeFiles/Basic-Game.dir/Game.cpp.obj	56e908d5d8e1d6ce
+1668	3080	7029536420000000	Basic-Game.exe	74db91774decddb9
+11	1371	7029537760000000	CMakeFiles/Basic-Game.dir/Game.cpp.obj	56e908d5d8e1d6ce
+1372	2765	7029537780000000	Basic-Game.exe	74db91774decddb9
+21	1872	7029538220000000	CMakeFiles/Basic-Game.dir/Game.cpp.obj	56e908d5d8e1d6ce
+1873	3492	7029538220000000	Basic-Game.exe	74db91774decddb9

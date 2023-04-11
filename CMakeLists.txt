@@ -13,5 +13,5 @@ set(SFML_STATIC_LIBRARIES TRUE)
 set(SFML_DIR ${CMAKE_CURRENT_SOURCE_DIR}/SFML/lib/cmake/SFML)
 find_package(SFML COMPONENTS system window graphics audio network REQUIRED)
 
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/SFML/include)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/SFML/lib/cmake/SFML)
 target_link_libraries(Basic-Game sfml-system sfml-window sfml-graphics sfml-audio)
