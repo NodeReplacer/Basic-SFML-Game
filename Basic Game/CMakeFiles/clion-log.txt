@@ -1,0 +1,5 @@
+"G:\Program Files\JetBrains\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=G:/Program Files/JetBrains/CLion 2022.2/bin/ninja/win/ninja.exe" -G Ninja -S "G:\Personal Projects\C++ Projects\GravMaybe" -B "G:\Personal Projects\C++ Projects\GravMaybe\cmake-build-debug"
+-- Found SFML 2.5.1 in G:/Personal Projects/C++ Projects/GravMaybe/SFML/lib/cmake/SFML
+-- Configuring done
+-- Generating done
+-- Build files have been written to: G:/Personal Projects/C++ Projects/GravMaybe/cmake-build-debug
